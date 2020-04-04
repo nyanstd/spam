@@ -8,8 +8,10 @@ $val = fopen('php://stdin','r');
 $va = trim(fgets($val));
 for($i=0; $i<$va; $i++) {
 if(preg_match('/green/',file_get_contents('http://crap.uk.to/spam/?n='.$no.'&v=1'))){
-print 'Sending to '.$no.'\n';
-}else{ print 'Failed send to '.$no.'\n';
+print 'Sending to '.$no.'
+';
+}else{ print 'Failed send to '.$no.'
+';
 }
 }
 ?>
